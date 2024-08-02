@@ -4,14 +4,8 @@ public class Student {
     private  int rollno;
     private String name;
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "rollno=" + rollno +
-                ", name='" + name + '\'' +
-                ", marks='" + marks + '\'' +
-                '}';
-    }
+
+
 
     public Student(int rollno, String name, String marks) {
         this.rollno = rollno;
@@ -44,6 +38,12 @@ public class Student {
     public void setMarks(String marks) {
         this.marks = marks;
     }
-
-
+    @Override
+    public String toString() {
+        return "Student{" +
+                "rollno=" + rollno +
+                ", name='" + name + '\'' +
+                ", marks='" + marks + '\'' +
+                '}';
+    }
 }
