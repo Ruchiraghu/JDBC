@@ -1,4 +1,4 @@
-package College;
+package mysql;
 
 import java.sql.*;
 
@@ -21,11 +21,6 @@ public class Method1 {
         //step 3
         Statement st = connect.createStatement();
         ResultSet result = st.executeQuery("SELECT * FROM student");
-        try{
-            java.sql.ResultSet resultSet =
-        }catch (Exception e){
-            System.out.println(e);
-        }
         while(result.next()){
             int rollno = result.getInt("rollno");
             String name = result.getString("name");
