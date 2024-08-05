@@ -1,4 +1,4 @@
-package student;
+package SingletonClass;
 
 public class SingletonClass {
     //singleton method make only one object
