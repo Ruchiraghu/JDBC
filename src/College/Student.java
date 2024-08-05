@@ -22,7 +22,6 @@ public class Student {
     public void setRollno(int rollno) {
         this.rollno = rollno;
     }
-
     public String getName() {
         return name;
     }
